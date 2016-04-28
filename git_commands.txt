@@ -1,0 +1,233 @@
+    1  ls
+    2  pwd
+    3  dir
+    4  exit
+    5  cd Desk
+    6  pwd
+    7  pwd
+    8  ls
+    9  cd
+   10  exit
+   11  cd Desktop/
+   12  ls
+   13  pwd
+   14  ls
+   15  cd data-shell/
+   16  cd north-pacific-gyre/
+   17  file myfile in *.txt
+   18  ls
+   19  ls
+   20  cd 2012-07-03/
+   21  ls
+   22  for myfile in *.txt; do echo *[AB]$myfile -n 2; done
+   23  for myfile in *.txt; do echo *[AB]*.txt -n 2; done
+   24  for myfile in *.txt; do echo *[AB]*.txt ; done
+   25  for myfile in $myfile ; do echo $myfile -head -5 ; done
+   26  for myfile in $myfile ; do echo $myfile -head 5; done
+   27  for myfile in *.txt; do echo $myfile -head 5; done
+   28  for myfile in *.txt; do head $myfile -5; done
+   29  for myfile in *.txt; do head $myfile 5; done
+   30  for myfile in *.txt; do echo $myfile ; done
+   31  for myfile in *[AB].txt; do head $myfile -2; done
+   32  for myfile in *[AB].txt; do head $myfile n -2; done
+   33  for myfile in *[AB].txt; do head $myfile -n 5; done
+   34  clear
+   35  for myfile in *[AB].txt; do head $myfile -n 5; done
+   36  for file in *[AB].txt; do echo $file; bash goostats $file stat-$file; done
+   37  pwd
+   38  cd ..
+   39  ls
+   40  ls
+   41  cd 2012-07-03/
+   42  ls
+   43  cat goodiff
+   44  pwd
+   45  cd ..
+   46  cd ..
+   47  ls
+   48  cd molecules/
+   49  ls
+   50  nano middle.sh
+   51  cat middle.sh 
+   52  bash middle.sh
+   53  bash middle.sh 
+   54  ./middle.sh
+   55  ls
+   56  nano middle.sh
+   57  bash middle.sh 
+   58  ./middle.sh
+   59  ls
+   60  ls
+   61  ./middle.sh >test.text
+   62  head -3 test.text 
+   63  head -3 test.text  | cut -d
+   64  head -3 test.text  | cut -2
+   65  head -3 test.text  | cut -1
+   66  ls
+   67  ls -l 
+   68  ls -l  |cut -2
+   69  ls -l  |cut 2
+   70  pwd
+   71  ls
+   72  nano middle.sh
+   73  bash middle.sh  pentane.pdb 
+   74  cp middle.sh middle1.sh
+   75  nano middle1.sh
+   76  bash middle1.sh octane.pdb 10 3
+   77  nano middle1.sh
+   78  bash middlehttps://v.etherpad.org/p/SWC_2016_04_NIH1.sh octane.pdb 10 3
+   79  cat middle1.sh 
+   80  cp middle1.sh middle2.sh
+   81  nano middle2.sh 
+   82  bash middle2.sh 5 octane.pdb 2
+   83  bash middle2.sh octane.pdb 5 2
+   84  bash middle2.sh octane.pdb 5 2
+   85  bash middle2.sh 5 octane.pdb 2
+   86  pwd
+   87  cd ..
+   88  ls
+   89  cd north-pacific-gyre/
+   90  ls
+   91  cd 2012-07-03/
+   92  ls
+   93  nano do-stat.sh
+   94  ls
+   95  bash do-stat.sh 
+   96  ls
+   97  bash do-stat.sh 
+   98  cat do-stat.sh 
+   99  ls
+  100  bash do-stat.sh  *.txt
+  101  bash do-stat.sh  *[AB].txt
+  102  nano do-stat.sh 
+  103  bash do-stat.sh  *[AB].txt
+  104  nano do-stat.sh 
+  105  ls
+  106  PWD
+  107  pwd
+  108  pwd
+  109  cd ..
+  110  ls
+  111  ls
+  112  cd ..
+  113  ls
+  114  cd writing/
+  115  ls
+  116  clear
+  117  ls -l
+  118  more haiku.txt 
+  119  more haiku.txt 
+  120  grep not haiku.txt 
+  121  grep day haiku.txt 
+  122  grep -w day haiku.txt 
+  123  grep -w "is no" haiku.txt 
+  124  grep -w "is not" haiku.txt 
+  125  grep -w "is n" haiku.txt 
+  126  grep -w "is " haiku.txt 
+  127  grep -w "is not" haiku.txt 
+  128  grep -w " not" haiku.txt 
+  129  grep -w "is not" haiku.txt 
+  130  grep -n -w -i haiku.txt 
+  131  grep -n -w -i the haiku.txt 
+  132  grep -n -w -i -v the haiku.txt 
+  133  ls
+  134  ls
+  135  ls -l
+  136  ls -FR
+  137  find . -type d
+  138  find . -name stats -print
+  139  pwd
+  140  ls
+  141  cd ..
+  142  cd molecules/
+  143  ls
+  144  for myfile *.pdb do 
+  145  for myfile *.pdb
+  146  find . -name stats -print
+  147  find . -name ethane -print
+  148  find . -name ethane -print
+  149  exit
+  150  exit
+  151  ls
+  152  pwd
+  153  for
+  154  sh
+  155  for
+  156  exit
+  157  ls
+  158  cd daa
+  159  cd data
+  160  ls
+  161  ls
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd north-pacific-gyre/
+  166  pwd
+  167  cd ..
+  168  cd ..
+  169  ls
+  170  ls
+  171  ls
+  172  pwd
+  173  pwd
+  174  cd
+  175  pwd
+  176  cd Desktop/
+  177  ls
+  178  cd data-shell/
+  179  ls
+  180  cd molecules/
+  181  cd molecules
+  182  pwd
+  183  ls
+  184  cd ..
+  185  ls
+  186  ls
+  187  cd north-pacific-gyre/
+  188  cd ..
+  189  cd
+  190  ls
+  191  ls
+  192  exit
+  193  exit
+  194  cd Desktop/
+  195  clear
+  196  ls
+  197  mkdir plants
+  198  cd plants/
+  199  ls
+  200  ls -la
+  201  git
+  202  git init
+  203  ls -la
+  204  git status
+  205  nano crop
+  206  cat crop 
+  207  nano crop
+  208  git status
+  209  git add crop
+  210  ls -la
+  211  git status
+  212  git commit
+  213  ls
+  214  ls -la
+  215  git commit -m "This is the draft of crop status"
+  216  git commit -m 'This is the draft of crop status'
+  217  vi test
+  218  git commit
+  219  ls
+  220  git commit
+  221  git status
+  222  git add crop
+  223  git commit
+  224  ls -la
+  225  mv crop crop.txt
+  226  git add crop.txt
+  227  git commit
+  228  git config --global user.name "elangop"
+  229  git config --global user.email "elangop@mail.nih.gov"
+  230  git config --global color.ui "auto"
+  231  git config --global core.editor "nano -w"
+  232  history
+  233  history >git_commands.txt
